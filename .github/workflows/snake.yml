@@ -6,31 +6,31 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # 🔥 THIS FIXES THE ERROR
+  contents: write
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
 
-      - uses: Platane/snk@v3
+      - name: Generate snake
+        uses: Platane/snk@v3
         with:
           github_user_name: farhanlabs
           outputs: |
-<<<<<<< HEAD
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Deploy to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-=======
             github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - uses: crazy-max/ghaction-github-pages@v3
->>>>>>> b1578d21ac786965a9f874ae8daea61cbcdd7d32
-        with:
-          target_branch: output
-          build_dir: .
+      - name: Commit & Push to output branch
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git checkout --orphan output
+          git rm -rf .
+          mv github-contribution-grid-snake-dark.svg snake.svg
+          git add snake.svg
+          git commit -m "Generate snake animation"
+          git push origin output --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

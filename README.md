@@ -80,7 +80,7 @@ I'm a **Cloud & DevOps Engineer** focused on building scalable, production-ready
 <!-- This requires GitHub Action setup -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/farhanlabs/farhanlabs/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/farhanlabs/farhanlabs/output/snake.svg">
 </p>
 
 ---

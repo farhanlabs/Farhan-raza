@@ -9,7 +9,7 @@ permissions:
   contents: write   # 🔥 THIS FIXES THE ERROR
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,12 +19,18 @@ jobs:
         with:
           github_user_name: farhanlabs
           outputs: |
+<<<<<<< HEAD
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v3
+=======
+            github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - uses: crazy-max/ghaction-github-pages@v3
+>>>>>>> b1578d21ac786965a9f874ae8daea61cbcdd7d32
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

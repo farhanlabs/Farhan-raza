@@ -9,7 +9,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20Views&color=0e75b6&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=farhanlabs&label=Profile%20Views&color=0e75b6&style=flat" />
 </p>
 
 ---
@@ -61,8 +61,8 @@ I'm a **Cloud & DevOps Engineer** focused on building scalable, production-ready
 # 📊 GitHub Analytics
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=farhanlabs&show_icons=true&theme=tokyonight"/>
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=farhanlabs&theme=tokyonight"/>
 </p>
 
 ---
@@ -70,7 +70,7 @@ I'm a **Cloud & DevOps Engineer** focused on building scalable, production-ready
 # 📈 Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=farhanlabs&theme=tokyo-night"/>
 </p>
 
 ---
@@ -80,7 +80,7 @@ I'm a **Cloud & DevOps Engineer** focused on building scalable, production-ready
 <!-- This requires GitHub Action setup -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/farhanlabs/farhanlabs/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
 ---
